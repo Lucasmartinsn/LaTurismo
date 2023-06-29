@@ -1,0 +1,54 @@
+/*
+Primary color: #98DBAF
+footer color: #98DBAF opacidade 20%
+secundary color: #EE685F
+*/
+body{
+    margin-left: 5% !important;
+    margin-right: 10% !important;
+    padding: 0% !important;
+}
+span{
+    color: #EE685F;
+}
+
+.btn-principal{
+    background-color: #98DBAF;
+    color: black;
+    border: none;   
+    border-radius: 10px;
+    text-align: center;
+}
+.btn-principal:hover{
+    background-color: #fff;
+    border: 2px solid #98DBAF;
+}
+
+.title-principais{
+    font-size: 40px;
+    font-weight:500;
+}
+.title-secudari{
+    font-size: 20px;
+    font-weight:500;
+}
+
+.title-footer{
+    font-size: 14px;
+    font-weight:500;
+    color: #EE685F;
+}
+/** Estilo do header*/
+
+.list-liks a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.list-liks{
+    display: flex;
+}
+.principal-nav{
+    display: flex;
+    margin-top: 3%;
+}
