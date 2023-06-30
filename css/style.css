@@ -18,6 +18,8 @@ span{
     border: none;   
     border-radius: 10px;
     text-align: center;
+    width: 250px;
+    height: 40px;
 }
 .btn-principal:hover{
     background-color: #fff;
@@ -47,8 +49,74 @@ span{
 }
 .list-liks{
     display: flex;
+    margin-left: 40px;
+}
+.desc{
+    display: flex;
 }
 .principal-nav{
     display: flex;
+    justify-content: space-between;
     margin-top: 3%;
+}
+/* primeira section*/
+#span-sectionOne{
+    color: #98DBAF;
+}
+.container-img{
+    width: 100%;
+    height: 670px;
+    margin-top: 20px;
+}
+.img1_oneSection{
+    width: 1570px;
+    opacity: 90%;
+}
+.card-sectionOne{
+    background-color: #262626;
+    z-index: 1;
+    opacity: 50%;
+    color: #fff;
+    align-items: center;
+    width: 25%;
+    padding: 2%;
+    border-radius: 20px;
+    position: relative;
+    top: -500px;
+    left: 100px;
+    font-weight: bold;
+}
+.card-sectionOne h1{
+    font-weight: bold;
+}
+#img{
+    z-index: 2;
+    position: relative;
+    left: -50px;
+}
+#backgroud{
+    background-color: #98DBAF ;
+    width: 220px;
+    height: 230px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+.img2_oneSection{
+    position: relative;
+    z-index: 1;
+    top: -750px;
+    right: -1050px;
+    color: #fff;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.title-h3{
+    color: #fff;
+}
+.card2-sectionOne{
+    position: relative;
+    top: -667px;
+    left: 460px;
 }
